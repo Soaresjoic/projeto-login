@@ -32,13 +32,14 @@ section#login {
     position: absolute; /*isso vai deixar a tela centralizada*/
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    
     overflow: hidden;
     background-color: white;
     width: 300px;
     height: 550px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s; /*vai transicionar mais suavemente entre as telas*/
     transition-timing-function: ease;
 }
@@ -66,7 +67,7 @@ div#forms > p {
     padding-bottom: 5px;
 }
 
-p.campo {
+p.campo { /*campos de login e senha*/
     background-color: #BD7EF2;
     width: 100%;
     display: block;
@@ -75,7 +76,24 @@ p.campo {
     margin: 5px 0px;
 }
 
-input[type=submit] {
+p.campo > span { /*icon do login*/
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+p.campo > input { /*configurando a caixa de texto do login*/
+    font-size: 1em;
+    width: calc(100% - 47px);   
+    height: 95%;    
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+    transform: translateY(-10px);
+}
+
+input[type=submit] { /*botão de enviar*/
     display: block;
     font-size: 1em;
     width: 100%;
@@ -91,7 +109,7 @@ input[type=submit]:hover {
     background-color: #a442f3;
 }
 
-a.botao {
+a.botao { /*botão de esqueci a senha*/
     display: block;
     text-align: center;
     font-size: 1em;
