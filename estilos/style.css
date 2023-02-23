@@ -39,6 +39,8 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+    transition: width .3s, height .3s; /*vai transicionar mais suavemente entre as telas*/
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -52,4 +54,14 @@ section#login > div#forms {
     display: block;
     padding: 10px;
 
+}
+
+section#login > div#forms > h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+section#login > div#forms > p {
+    text-align: justify;
+    padding-bottom: 5px;
 }
