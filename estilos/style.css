@@ -8,3 +8,48 @@
     azul-arroxeado: #83C7FC
     azul: #84ECF5    
 */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: purple;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute; /*isso vai deixar a tela centralizada*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #BD7EF2 url(../imagens/image-login.jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#forms {
+    display: block;
+    padding: 10px;
+
+}
