@@ -21,18 +21,19 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações em seu ambiente.</p>
                 <form action="login.php" method="post">
-                    <p>
+                    <p class="campo">
                         <span id="email" class="material-symbols-outlined">person</span>
                         <label for="iemail"></label>
                         <input type="email" name="email" id="iemail" required placeholder="exemplo@gmail.com">
                     </p>
-                    <p>
+                    <p class="campo">
                         <span id="senha" class="material-symbols-outlined">vpn_key</span>
                         <label for="isenha"></label>
                         <input type="password" name="senha" id="isenha" required placeholder="Mínimo 8 dígitos">
                     </p>
                     <p>
                         <input type="submit" value="Enviar">
+                        <a href="esqueci.html" class="botao">Esqueci a senha <span id="senha" class="material-symbols-outlined">mail</span> </a>
                     </p>
                 </form>
             </div>
