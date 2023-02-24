@@ -85,12 +85,12 @@ p.campo > span { /*icon do login*/
 
 p.campo > input { /*configurando a caixa de texto do login*/
     font-size: 1em;
-    width: calc(100% - 48px);   
+    width: calc(100% - 44px);   
     height: 100%;    
     border: 0px;
     border-radius: 5px;
     padding: 4px;
-    transform: translateY(-10px);
+    transform: translateY(-11px);
 }
 
 input[type=submit] { /*botão de enviar*/
