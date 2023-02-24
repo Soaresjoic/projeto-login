@@ -90,7 +90,7 @@ p.campo > input { /*configurando a caixa de texto do login*/
     border: 0px;
     border-radius: 5px;
     padding: 4px;
-    transform: translateY(-11px);
+    transform: translateY(-13px);
 }
 
 input[type=submit] { /*botão de enviar*/
